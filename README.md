@@ -16,6 +16,7 @@
   <code>git clone https://github.com/your-username/repository-name.git</code>
   <li>To use the Proteus simulation it is necessary to include the HEX file "ina219.ino" in the element that simulates an Arduino. The file is located in "Proteus_Simulation\Arduino_Code\ina219\build\arduino.avr.uno".</li>
   <li>Configure the Blynk application to receive the measured data and visualize them in real-time.</li>
+ <li>Demonstration of system operation: https://youtu.be/Gaij6F-4MY4. </li>
 </ol> 
 
 
