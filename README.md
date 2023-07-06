@@ -7,8 +7,8 @@
 <p>The main objective of this project is to facilitate accurate and real-time measurement of voltage and current in a solar panel array. This enables efficient monitoring of the system's performance and provides the ability to detect and troubleshoot potential issues.</p>
 <h2>Repository Contents</h2>
 <ul>
-  <li><strong>/Simulation</strong>: Contains the files related to the Proteus simulation that allows testing the code without having a physical INA219. It provides a convenient way to develop and debug the code before actual implementation.</li>
-  <li><strong>/Physical Implementation</strong>: Here, you will find the necessary files for the implementation with real physical components. It includes the ESP32 code and connection details for utilizing the INA219 sensor and measuring the voltage and current of the solar panel array.</li>
+  <li><strong>Simulation</strong>: Contains the files related to the Proteus simulation that allows testing the code without having a physical INA219. It provides a convenient way to develop and debug the code before actual implementation.</li>
+  <li><strong>Physical Implementation</strong>: Here, you will find the necessary files for the implementation with real physical components. It includes the ESP32 code and connection details for utilizing the INA219 sensor and measuring the voltage and current of the solar panel array.</li>
 </ul>
 <h2>Contribution</h2>
 <p>If you wish to contribute to this project, you are welcome to do so! You can submit pull requests with improvements, bug fixes, or new functionalities. Please make sure to follow the contribution guidelines established in the repository.</p>
