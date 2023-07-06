@@ -10,6 +10,15 @@
   <li><strong>Simulation</strong>: Contains the files related to the Proteus simulation that allows testing the code without having a physical INA219. It provides a convenient way to develop and debug the code before actual implementation.</li>
   <li><strong>Physical Implementation</strong>: Here, you will find the necessary files for the implementation with real physical components. It includes the ESP32 code and connection details for utilizing the INA219 sensor and measuring the voltage and current of the solar panel array.</li>
 </ul>
+<h2>Usage Instructions</h2>
+<ol>
+  <li>Clone or download this repository to your computer.</li>
+  <code>git clone https://github.com/your-username/repository-name.git</code>
+  <li>To use the Proteus simulation it is necessary to include the HEX file "ina219.ino" in the element that simulates an Arduino. The file is located in "Proteus_Simulation\Arduino_Code\ina219\build\arduino.avr.uno".</li>
+  <li>Configure the Blynk application to receive the measured data and visualize them in real-time.</li>
+</ol> 
+
+
 <h2>Contribution</h2>
 <p>If you wish to contribute to this project, you are welcome to do so! You can submit pull requests with improvements, bug fixes, or new functionalities. Please make sure to follow the contribution guidelines established in the repository.</p>
 <h2>License</h2>
