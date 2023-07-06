@@ -1,1 +1,14 @@
 # INA219-Communication-System
+# Solar Panel Array Current and Voltage Measurement Project using INA219 Sensor
+This repository contains the code required to utilize the INA219 current and voltage sensor for measuring the current and voltage of a solar panel array. The project is designed to work with an ESP32, which serves as the main controller for collecting and transmitting the measured data in real-time to a Blynk application.
+
+The code provided in this repository is divided into two test versions. In the first version, a simulation in Proteus is used to simulate the connection of an ESP32, allowing for testing the system's functionality without the need for a physical INA219. This facilitates code development and debugging before actual implementation.
+
+The second part of the code focuses on implementation with real physical components. Here, an ESP32 along with the INA219 sensor is used to measure the real-time voltage and current of the solar panel array. These measured data are transmitted through the Blynk application, providing a user-friendly interface to display the measured values and enable remote monitoring.
+
+The main objective of this project is to facilitate accurate and real-time measurement of voltage and current in a solar panel array. This enables efficient monitoring of the system's performance and provides the ability to detect and troubleshoot potential issues.
+
+Repository Contents:
+/Simulation: Contains the files related to the Proteus simulation that allows testing the code without having a physical INA219. It provides a convenient way to develop and debug the code before actual implementation.
+
+/Physical Implementation: Here, you will find the necessary files for the implementation with real physical components. It includes the ESP32 code and connection details for utilizing the INA219 sensor and measuring the voltage and current of the solar panel array.
